@@ -1,0 +1,58 @@
+/*Global */
+body {
+	background-color: #d3d3d3;
+	font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 1000px) {
+	.title-text {
+		text-align: center;
+	}
+
+	#project-header {
+		text-align: center;
+	}
+}
+
+/* Navbar, Title, DevPhoto*/
+
+.title-text {
+	color: #000;
+
+}
+
+#dev-photo {
+	margin-top: 15px;
+
+}
+
+.hero-text {
+	color: #000;
+	font-weight: bold;
+}
+
+.jumbotron {
+	background: #ccac00 url(https://static.pexels.com/photos/2170/creative-desk-pens-school.jpg) center center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+}
+
+hr {
+	border-color: #000;
+	opacity: 0.5;
+}
+
+/* Recent Projects Section w/ thumbnails */
+
+.thumbnails {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto; /* this allows the buttons to be centered*/
+
+}
+
+.btn {
+	margin-top: 20px;
+}
