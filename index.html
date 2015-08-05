@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Christopher's Profile</title>
+
+	<!--Bootstrap-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet"> <!-- custom css file-->
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,400,700" rel='stylesheet' type='text/css'> <!--Lato-->
+	<script src="js/lazysizes.min.js" async=""></script>
+
+</head>
+	<body>
+
+<!-- Nav Bar Container Divs-->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+
+					<!-- Hamburger Icon-->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">BlimCo</a> <!--Brand for navbar that sends users back to starting page. Address is homepage of site-->
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbar1">
+					<ul class="nav navbar-nav">
+						<li class="active"> <a href="#">Home</a> </li>
+
+						<li class="active"> <a href="#">About</a> </li>
+
+						<li class="active"> <a href="#">Resume</a> </li>
+
+						<li class="active"> <a href="#">Contact</a> </li>
+					</ul>
+				</div> <!-- End of Navbar Collapse-->
+
+			</div> <!-- End of Container Fluid -->
+		</nav>
+
+<!-- 1st Container-->
+		<div class="container head">
+			<div class="row">
+				<div class="col-md-4">
+					<img class="img-responsive center-block" id="dev-photo" src="images/profile.jpg" alt="Developer Photo">
+				</div>
+
+				<div class="col-md-8 text-right title-text">
+					<h1>Christopher Nelson</h1>
+					<h3>Front-End Web Developer</h3>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+<!-- 2nd Container-->
+
+		<!--Jumbotron-->
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Welcome to my site!</h1>
+
+			<p class="hero-text">I have been designing interactive media for three years, but I'm relatively new to the web development scene. This site is designed to showcase my projects to both experienced and amateur developers alike. Follow my journey here and on my blog!</p>
+			<br> <br> <br>
+			<p> <a class="btn btn-success btn-lg" href="http://www.theblimclub.com/wordpress" role="button">View Blog</a> </p>
+		</div>
+
+			<hr>
+<!-- 1st thumbnail row-->
+		<div class="row">
+			<div class="col-md-12" id="project-header"> <h3>Recent Projects</h3> </div>
+		</div>
+
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h4>All the King's Men</h4>
+				<img class="thumbnails img-responsive img-rounded" src="https://static.pexels.com/photos/498/playing-sony-console-controller.jpg" alt="thumbnail img">
+
+				<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#project-1-modal">
+					<span class="glyphicon glyphicon-knight" aria-hidden="true"></span> View
+				</button>
+
+			</div>
+
+			<div class="col-md-4">
+				<h4>Project 2</h4>
+				<img class="thumbnails img-responsive img-rounded" src="https://static.pexels.com/photos/498/playing-sony-console-controller.jpg"
+				alt="thumbnail img">
+
+				<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#project-2-modal">
+					<span class="glyphicon glyphicon-knight" aria-hidden="true"></span> View
+				</button>
+
+			</div>
+
+			<div class="col-md-4">
+				<h4>Project 3</h4>
+				<img class="thumbnails img-responsive img-rounded" src="https://static.pexels.com/photos/498/playing-sony-console-controller.jpg"
+				alt="thumbnail img">
+
+				<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#project-3-modal">
+					<span class="glyphicon glyphicon-knight" aria-hidden="true"></span> View
+				</button>
+
+			</div>
+<!-- ..........................Modals.................................................... -->
+		<!-- Modal Porject 1-->
+			<div class="modal fade" id="project-1-modal" tabindex="-1" role="dialog" aria-labelledby="modal-1">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="modal-1">All the King's Men</h4>
+						</div>
+						<div class="modal-body">
+							This game was created using Javascript and a compiler called Perlenspiel 2.0. Using the directional buttons, players control the King as he tries to position his lousy servants (the pawns) and horses (knights) into their correct positions. This puzzle game requires players to move pawns and knights into their respective squares in order to advance to the next part of the castle...and eventually bed!
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<a href="http://spielmatrix.com/user/NelsonChristopher/Puzzle/game.html" class="btn btn-primary active" role="button">Play Game</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Modal Porject 2-->
+			<div class="modal fade" id="project-2-modal" tabindex="-1" role="dialog" aria-labelledby="modal-2">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="modal-2">Coming Soon!</h4>
+						</div>
+
+						<div class="modal-body">
+							This is a placeholder for an upcoming project. Check my blog <a href="http://www.theblimclub.com/wordpress"> here</a> for more details. Thanks for stopping by!
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<a href="#" class="btn btn-primary active" role="button">Play Game</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		<!-- Modal Porject 3-->
+			<div class="modal fade" id="project-3-modal" tabindex="-1" role="dialog" aria-labelledby="modal-3">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="modal-3">Coming Soon!</h4>
+						</div>
+
+						<div class="modal-body">
+							This is a placeholder for an upcoming project. Check my blog <a href="http://www.theblimclub.com/wordpress"> here</a> for more details. Thanks for stopping by!
+						</div>
+
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<a href="#" class="btn btn-primary active" role="button">Play Game</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--2nd thumbnail row-->
+		<br> <br> <br>
+
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h4>Project 4</h4>
+				<img class="thumbnails  img-responsive img-rounded" src="https://static.pexels.com/photos/498/playing-sony-console-controller.jpg"
+				alt="thumbnail img">
+
+				<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#project-4-modal">
+					<span class="glyphicon glyphicon-knight" aria-hidden="true"></span> View
+				</button>
+
+			</div>
+
+			<div class="col-md-4">
+				<h4>Project 5</h4>
+				<img class="thumbnails img-responsive img-rounded" src="https://static.pexels.com/photos/498/playing-sony-console-controller.jpg"
+				alt="thumbnail img">
+
+				<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#project-5-modal">
+					<span class="glyphicon glyphicon-knight" aria-hidden="true"></span> View
+				</button>
+
+			</div>
+
+			<div class="col-md-4">
+				<h4>Project 6</h4>
+				<img class="thumbnails img-responsive img-rounded" src="https://static.pexels.com/photos/498/playing-sony-console-controller.jpg"
+				alt="thumbnail img">
+
+				<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#project-6-modal">
+					<span class="glyphicon glyphicon-knight" aria-hidden="true"></span> View
+				</button>
+
+			</div>
+		</div>
+
+		<!-- ..........................More Modals.................................................... -->
+		<!-- Modal Porject 4-->
+		<div class="modal fade" id="project-4-modal" tabindex="-1" role="dialog" aria-labelledby="modal-4">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="modal-4">Coming Soon!</h4>
+					</div>
+
+					<div class="modal-body">
+						This is a placeholder for an upcoming project. Check my blog <a href="http://www.theblimclub.com/wordpress"> here </a> for more details. Thanks for stopping by!
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<a href="#" class="btn btn-primary active" role="button">Play Game</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal Porject 5-->
+		<div class="modal fade" id="project-5-modal" tabindex="-1" role="dialog" aria-labelledby="modal-5">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="modal-5">Coming Soon!</h4>
+					</div>
+
+					<div class="modal-body">
+						This is a placeholder for an upcoming project. Check my blog <a href="http://www.theblimclub.com/wordpress"> here</a> for more details. Thanks for stopping by!
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<a href="#" class="btn btn-primary active" role="button">Play Game</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Modal Porject 6-->
+		<div class="modal fade" id="project-6-modal" tabindex="-1" role="dialog" aria-labelledby="modal-6">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="modal-6">Coming Soon!</h4>
+					</div>
+
+					<div class="modal-body">
+						This is a placeholder for an upcoming project. Check my blog <a href="http://www.theblimclub.com/wordpress"> here</a> for more details. Thanks for stopping by!
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<a href="#" class="btn btn-primary active" role="button">Play Game</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
